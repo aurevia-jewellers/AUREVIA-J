@@ -57,7 +57,7 @@
                 /* Hero Section */
         .hero {
             background: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), 
-                        url('banner.jpeg');
+                        url('Banner.jpeg');
             background-size: cover;
             background-position: center;
             color: var(--white);
@@ -319,7 +319,4 @@
             .about-content, .contact-container {
                 grid-template-columns: 1fr;
             }
-
         }
-
-
