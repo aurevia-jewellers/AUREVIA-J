@@ -264,7 +264,31 @@
             margin-bottom: 1rem;
             color: var(--text-muted);
         }
+         /* NEW SOCIAL LINKS STYLING */
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 25px;
+        }
 
+        .social-icon-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background-color: var(--background);
+            color: var(--secondary);
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .social-icon-link:hover {
+            background-color: var(--primary);
+            color: var(--white);
+            transform: translateY(-3px);
+        }
         .contact-form {
             display: grid;
             gap: 20px;
@@ -320,6 +344,7 @@
                 grid-template-columns: 1fr;
             }
         }
+
 
 
 
